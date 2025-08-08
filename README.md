@@ -29,23 +29,6 @@ This project demonstrates the implementation of NGINX as a load balancer on AWS 
 
 ## System Architecture
 
-```
-                         ┌─────────────────┐
-                         │                 │
-                         │ Master Server   │
-                         │ (NGINX LB)      │
-                         │                 │
-                         └────────┬────────┘
-                                  │
-                ┌────────────┬────┴────┬────────────┐
-                │            │         │            │
-                ▼            ▼         ▼            ▼
-        ┌───────────┐ ┌───────────┐ ┌───────────┐
-        │ Backend 1 │ │ Backend 2 │ │ Backend 3 │
-        │ Weight: 3 │ │ Weight: 2 │ │ Weight: 1 │
-        └───────────┘ └───────────┘ └───────────┘
-```
-
 ![Load Balancer Architecture](./imgs/architecture/load-balancer-architecture.png)
 
 ## Prerequisites
