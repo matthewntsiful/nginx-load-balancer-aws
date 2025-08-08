@@ -29,7 +29,7 @@ This project demonstrates the implementation of NGINX as a load balancer on AWS 
 
 ## System Architecture
 
-![Load Balancer Architecture](./imgs/architecture/load-balancer-architecture.png)
+![Load Balancer Architecture](./imgs/architecture-diagram.png)
 
 ## Prerequisites
 
